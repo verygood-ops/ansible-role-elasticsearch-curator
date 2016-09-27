@@ -6,3 +6,10 @@ elasticsearch_curator_cron_jobs:
     minute: 30,
     hour: 1
   }
+
+curator_pip_package_name: elasticsearch-curator
+# see compability matrix: https://github.com/elastic/curator
+curator_pip_package_version: 3.5.1
+
+curator_pip_common_pkgs:
+  - argparse
